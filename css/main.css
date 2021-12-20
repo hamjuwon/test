@@ -12,7 +12,7 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 /* header */
 .main { background-color: #9A8DB9; width: 100%; height: 850px;}
 
-.maintext {position: relative; background-color: aquamarine; text-align: center; top: 33%;}
+.maintext {position: relative; text-align: center; top: 33%;}
 .mt1 {font-family: 'Russo One', sans-serif; text-align: center; font-size: 63px;  }
 .mt2 {font-family: 'Russo One', sans-serif; text-align: center; font-size: 85px;}
 .mt3 {font-family: 'Russo One', sans-serif;text-align: center; font-size: 85px;}
@@ -23,14 +23,14 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .tittle { margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 350px;height: 80px; border-radius: 100px;border:10px solid white; margin-top: -50px;}
 .tittle span {color: white; line-height: 80px; margin-left: 70px;}
 
-.allbout {background-color: brown; margin-top: 100px; margin-left: 100px; margin-right: 100px; text-align: center; display: flex;}
-.allpro {background-color: darkkhaki; width: 100%;}
-.me {background-color: darkcyan;}
+.allbout { margin-top: 100px; margin-left: 100px; margin-right: 100px; text-align: center; display: flex;}
+.allpro { width: 100%; mt100}
+.me {}
 .me img {margin-bottom: 50px;}
 
 .tt1 { font-family: 'Jua', sans-serif; font-size: 25px; margin-top: 50px; text-align: center; }
-.pro {background-color: darkmagenta; display: inline-block; text-align: left; width: 500px; margin-right: 100px;vertical-align: text-bottom; margin-top: 100px;}
-.pro2 {background-color: darkmagenta; display: inline-block; text-align: left; width: 500px; height: 250px;top: -100px; vertical-align: text-bottom;}
+.pro { display: inline-block; text-align: left; width: 500px; margin-right: 100px;vertical-align: text-bottom; margin-top: 200px;}
+.pro2 { display: inline-block; text-align: left; width: 500px; height: 250px;top: -100px; vertical-align: text-bottom;}
 .pt1 {font-size: 30px;font-weight: bold; }
 .pt2 {float: left; margin-top: 50px;font-size: 20px;width: 130px; line-height: 40px;}
 .pt3 { margin-top: 50px;font-size: 20px; line-height: 40px;}
@@ -39,5 +39,132 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .lt2 {float: left; margin-top: 50px;font-size: 20px;width: 130px; line-height: 40px;}
 .lt3 { margin-top: 50px;font-size: 20px; line-height: 40px;}
 
-.icon {margin-top: 750px; text-align: right;}
+.icon {margin-top: 850px; text-align: right;}
 
+/*ux/ui*/
+
+/*ux/ui-tittle*/
+.tittle2 {margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 250px;height: 80px; margin-top: 300px; border-radius: 100px;}
+.tittle2 span {color: white; line-height: 80px; margin-left: 70px;}
+
+.ui { margin-top: 100px; margin-left: 100px; margin-right: 100px; text-align: center ; display:inline-block; width: 92%;}
+
+
+/*ux/ui-ui1*/
+
+.ui1 {width: 100%;  display: inline-block; margin-top: 200px;}
+.ui1 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);} 
+
+.uitext {text-align: left;  height: 500px; margin-left: 900px; margin-right: 100px; }
+.uit1 {font-size: 40px; padding-top: 50px;font-weight: bold;}
+.uit2 {font-size: 35px;font-weight: bold;}
+.uit3 { margin-top: 40px; font-size: 18px; line-height: 1.6; text-align: justify;}
+.uit4 {font-weight: bold; margin-top: 30px;}
+.color1 {margin-top: 10px; float: left; background-color: #F9C2C2; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color2 {margin-top: 10px; float: left; background-color: #B20202; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color3 {margin-top: 10px; float: left; background-color: #FFEAD9; width: 30px; height: 30px; border-radius: 100px;}
+.detail1 {display: inline-block; margin-top: 30px; text-align: center;width: 96px; height: 36px;  background: #615385; color: white; line-height: 40px; border-radius: 10px; font-weight: bold;}
+
+/*ux/ui-ui2*/
+.ui2 {width: 100%; display: inline-block; margin-top: 400px;}
+.ui2 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);} 
+.uitext2 {text-align: left;  height: 500px; margin-left: 900px; margin-right: 100px; margin-top: 7%; }
+.uit5 {font-size: 40px; padding-top: 50px;font-weight: bold;}
+.uit6 {font-size: 35px;font-weight: bold;}
+.uit7 { margin-top: 40px; font-size: 18px; line-height: 1.6; text-align: justify;}
+.uit8 {font-weight: bold; margin-top: 30px;}
+.color4 {margin-top: 10px; float: left; background-color: #3F8D85; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color5 {margin-top: 10px; float: left; background-color: #234358; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color6 {margin-top: 10px; float: left; background-color: #FF9494; width: 30px; height: 30px; border-radius: 100px;}
+.detail2 {margin-top: 20px; float: left; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385; margin-right: 10px;}
+.view2 {margin-top: 20px; width: 100px; height: 40px;display: inline-block;  background: #615385;  text-align: center; color: white; line-height: 40px; border-radius: 10px; font-weight: bold;}
+
+/*ux/ui-ui3*/
+.ui3 {width: 100%; display: inline-block; margin-top: 400px;}
+.ui3 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);  margin-top: 50px;} 
+.uitext3 {text-align: left;  height: 500px; margin-left: 900px; margin-right: 00px;  margin-top: 2%;}
+.uitt3 {width: 1920px; top: 100%; }
+.uit9 {font-size: 40px; padding-top: 50px;font-weight: bold;}
+.uit10 {font-size: 35px;font-weight: bold;}
+.uit11 { margin-top: 40px; font-size: 18px; line-height: 1.6; text-align: justify;}
+.uit12 {font-weight: bold; margin-top: 30px;}
+.color7 {margin-top: 10px; float: left; background-color: #615385; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color8 {margin-top: 10px; float: left; background-color: #FFC400; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
+.color9 {margin-top: 10px; float: left; background-color: #4E4E4E; width: 30px; height: 30px; border-radius: 100px;}
+
+#GRAPHIC {float: center; margin-top: 600px;}
+.tittle3 {margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 350px;height: 80px; margin-top: 300px; border-radius: 100px;}
+.tittle3 span {color: white; line-height: 80px; margin-left: 85px;}
+
+.box {width: 1320px; height: 900px; margin: auto; margin-top: 80px;}
+.box1 {position: relative; display: inline-block; float: left; width: 420px; height: 380px; background-color: white; margin-right: 30px; box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box1 a { display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box1::before, .box1::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box1::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box1::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box1:hover a {display: block; z-index: 1;}
+.box1:hover::before { opacity: 80%;}
+.box1:hover::after {opacity: 100%;}
+
+
+.box2 {position: relative; display: inline-block; float: left;width: 420px; height: 380px; background-color: white; margin-right: 30px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box2 a {display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box2::before, .box2::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box2::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box2::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box2:hover a {display: block;z-index: 1;}
+.box2:hover::before { opacity: 80%;}
+.box2:hover::after {opacity: 100%;}
+
+
+.box3 {position: relative; display: inline-block; float: left;width: 420px; height: 380px; background-color: white;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box3 a {display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box3::before, .box3::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box3::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box3::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box3:hover a {display: block;z-index: 1;}
+.box3:hover::before { opacity: 80%;}
+.box3:hover::after {opacity: 100%;}
+
+
+.box4 {position: relative; display: inline-block; margin-top: 30px; float: left; width: 420px; height: 380px; background-color: white; margin-right: 30px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box4 a {display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box4::before, .box4::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box4::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box4::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box4:hover a {display: block;z-index: 1;}
+.box4:hover::before { opacity: 80%;}
+.box4:hover::after {opacity: 100%;}
+
+.box5 {position: relative; display: inline-block; margin-top: 30px; float: left;width: 420px; height: 380px; background-color: white; margin-right: 30px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box5 a {display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box5::before, .box5::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box5::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box5::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box5:hover a {display: block;z-index: 1;}
+.box5:hover::before { opacity: 80%;}
+.box5:hover::after {opacity: 100%;}
+
+
+.box6 {position: relative; display: inline-block; margin-top: 30px; float: left;width: 420px; height: 380px; background-color: white;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.box6 a {display: none; position: absolute; top: 50%; left: 0%; transform:translateY(-50%); width: 100%; text-align: center; font-size: 25px; color: #fff; font-weight: bold;}
+.box6::before, .box6::after {content: '';  position: absolute; transition: all.3s; top: 50%; left: 50%;  transform: translate(-50%,-50%);}
+.box6::before {background-color: #615385;width: 100%;height: 100%; opacity: 0%;}
+.box6::after {border:2px solid white; width: 89%; height: 89%;opacity: 0%;}
+.box6:hover a {display: block;z-index: 1;}
+.box6:hover::before { opacity: 80%;}
+.box6:hover::after {opacity: 100%;}
+
+
+.box1 img {margin-left: 20px; margin-top: 20px;}
+.box2 img {margin-left: 20px; margin-top: 20px;}
+.box3 img {margin-left: 20px; margin-top: 20px;}
+.box4 img {margin-left: 20px; margin-top: 20px;}
+.box5 img {margin-left: 20px; margin-top: 20px;}
+.box6 img {margin-left: 20px; margin-top: 20px; width: 90%;}
+
+.bt {float: left; margin-left: 20px; margin-top: 10px;font-weight: bold; font-size: 23px;}
+.bt1 {float: left; background-color: #FFC400; color: white; width: 105px; height: 25px; border-radius: 100px; text-align: center; font-weight: bold;margin-top: 15px; margin-left: 10px;}
+.bt2 {float: left; background-color: #615385; color: white; width: 95px; height: 25px; border-radius: 100px; text-align: center; font-weight: bold;margin-top: 15px; margin-left: 20px;}
+.bt3 {float: left; margin-left: 30px; margin-top: 20px;}
+.bt31 {float: left;  margin-left: -60px; margin-top: 20px;}
